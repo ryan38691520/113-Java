@@ -1,10 +1,14 @@
-package cc.openhome;
+
+import java.util.Scanner;
+
 
 public class Level {
     public static void main(String[] args) {
-        var score = 88;
-        var level = '\0'; 
-        
+        int score;
+        char level = '\0'; 
+        Scanner input = new Scanner(System.in);
+        System.out.print("è«‹è¼¸å…¥åˆ†æ•¸");
+        score = input.nextInt();
         if(score >= 90) {
             level = 'A';
         } 
@@ -20,6 +24,6 @@ public class Level {
         else {
             level = 'E';
         }
-        System.out.printf("±o¤Àµ¥¯Å¡G%c%n", level);
+        System.out.printf("å¾—åˆ†ç´€éŒ„: %c%n", level);
     }
 }

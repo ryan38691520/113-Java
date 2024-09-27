@@ -1,5 +1,4 @@
 
-
 public class RandomStop {
     public static void main(String[] args) {
         while(true) {
