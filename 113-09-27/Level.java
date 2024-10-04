@@ -12,13 +12,13 @@ public class Level {
         if(score >= 90) {
             level = 'A';
         } 
-        else if(score >= 80 && score < 90) {
+        else if(score >= 80 ) {
             level = 'B';
         }
-        else if(score >= 70 && score < 80) {
+        else if(score >= 70 ) {
             level = 'C';
         }
-        else if(score >= 60 && score < 70) {
+        else if(score >= 60 ) {
             level = 'D';
         }        
         else {
